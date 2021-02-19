@@ -1,5 +1,60 @@
 track SON_R1T1_smth
 bigDataUrl K562_TSA_c1r1t1_SON_smth.bw
-shortLabel K562 SON smooth R1T1
-longLabel K562 SON TSA-seq data smoothed with polynomials
+shortLabel SON smth
+longLabel K562 SON TSA-seq smoothed with polynomials rep1-tech1 
 type bigWig 
+
+track LMNB1B2_R1_smth
+bigDataUrl K562_TSA_c1r1_LaminB1_B2_smth.bw
+shortLabel LMNB1/B2 smooth
+longLabel K562 LMNB1/B2 TSA-seq smoothed with polynomials rep1 
+type bigWig 
+
+track SON_slp_r1t1
+bigDataUrl K562_TSA_c1r1t1_SON_slp.bw
+shortLabel SON slope R1T1
+longLabel K562 SON TSA-seq derivative rep1-tech1 
+type bigWig 
+
+track SON_slp_r1t2
+bigDataUrl K562_TSA_c1r1t2_SON_slp.bw
+shortLabel SON slope R1T2
+longLabel K562 SON TSA-seq derivative rep1-tech2 
+type bigWig 
+
+track SON_slp_r2
+bigDataUrl K562_TSA_c1r2_SON_slp.bw
+shortLabel SON slope R2
+longLabel K562 SON TSA-seq derivative rep2 
+type bigWig 
+
+track LMNB1B2_slp_r1
+bigDataUrl K562_TSA_c1r1_LaminB1_B2_slp.bw
+shortLabel LMNB1/B2 slope R1
+longLabel K562 LMNB1/B2 TSA-seq derivative rep1
+type bigWig 
+
+track LMNB1B2_slp_r2
+bigDataUrl K562_TSA_c1r2_LaminB1_B2_slp.bw
+shortLabel LMNB1/B2 slope R2
+longLabel K562 LMNB1/B2 TSA-seq derivative rep2
+type bigWig 
+
+track LMNA_slp_r1
+bigDataUrl K562_TSA_c1r1_LaminA_C_slp.bw
+shortLabel LMNA/C slope R1
+longLabel K562 LMNBA/C TSA-seq derivative rep1
+type bigWig
+
+track SC35_r1
+bigDataUrl K562_TSA_c1r1_SC35_slp.bw
+shortLabel SC35 slope R1
+longLabel K562 SC35 TSA-seq derivative rep1
+type bigWig 
+
+track mean_slp
+bigDataUrl TSA_slp_merge_by_mean.bw
+shortLabel Mean slope
+longLabel K562 average slope of all datasets
+type bigWig
+
