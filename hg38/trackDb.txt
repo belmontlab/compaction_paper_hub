@@ -57,3 +57,9 @@ bigDataUrl TSA_slp_merge_by_mean.bw
 shortLabel Mean slope
 longLabel K562 average slope of all datasets
 type bigWig
+
+track high_slope_majority
+bigDataUrl TSA_slp_merge_by_vote.bb
+shortLabel High-slope majority
+longLabel K562 high-slope domains (reproducible domains)
+type bigBed
