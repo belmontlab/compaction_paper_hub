@@ -1,0 +1,5 @@
+track SON_R1T1_smth
+bigDataUrl K562_TSA_c1r1t1_SON_smth.bw
+shortLabel K562 SON smooth R1T1
+longLabel K562 SON TSA-seq data smoothed with polynomials
+type bigWig 
