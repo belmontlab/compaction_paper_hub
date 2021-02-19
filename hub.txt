@@ -1,5 +1,5 @@
 hub Gholamalamdari_etal
 shortLabel Gholamalamdari et al. Hub
 longLabel USCS Hub for genomic data generated in "Identification of Decondensed Large-scale Chromatin Regions by TSA-seq and their Correlation with TAD and Compartment Boundaries"
-genomesFile genomes.txt
+genomesFile https://raw.githubusercontent.com/belmontlab/compaction_paper_hub/main/genome.txt
 email omid.alamdari@gmail.com
