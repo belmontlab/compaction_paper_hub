@@ -13,19 +13,19 @@ type bigWig
 track SON_slp_r1t1
 bigDataUrl K562_TSA_c1r1t1_SON_slp_pct.bw
 shortLabel SON slope R1T1
-longLabel K562 SON TSA-seq slope percentile rep1-tech1 
+longLabel K562 SON TSA-seq slope rep1-tech1 (percentile)
 type bigWig 
 
 track SON_slp_r1t2
 bigDataUrl K562_TSA_c1r1t2_SON_slp_pct.bw
 shortLabel SON slope R1T2
-longLabel K562 SON TSA-seq slope percentile rep1-tech2 
+longLabel K562 SON TSA-seq slope rep1-tech2 (percentile)
 type bigWig 
 
 track SON_slp_r2
 bigDataUrl K562_TSA_c1r2_SON_slp_pct.bw
 shortLabel SON slope R2
-longLabel K562 SON TSA-seq slope percentile rep2 
+longLabel K562 SON TSA-seq slope rep2 (percentile)
 type bigWig 
 
 track LMNB1B2_slp_r1
