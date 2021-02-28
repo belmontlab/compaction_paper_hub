@@ -13,49 +13,49 @@ type bigWig
 track SON_slp_r1t1
 bigDataUrl K562_TSA_c1r1t1_SON_slp_pct.bw
 shortLabel SON slope R1T1
-longLabel K562 SON TSA-seq derivative percentile rep1-tech1 
+longLabel K562 SON TSA-seq slope percentile rep1-tech1 
 type bigWig 
 
 track SON_slp_r1t2
 bigDataUrl K562_TSA_c1r1t2_SON_slp_pct.bw
 shortLabel SON slope R1T2
-longLabel K562 SON TSA-seq derivative percentile rep1-tech2 
+longLabel K562 SON TSA-seq slope percentile rep1-tech2 
 type bigWig 
 
 track SON_slp_r2
 bigDataUrl K562_TSA_c1r2_SON_slp_pct.bw
 shortLabel SON slope R2
-longLabel K562 SON TSA-seq derivative percentile rep2 
+longLabel K562 SON TSA-seq slope percentile rep2 
 type bigWig 
 
 track LMNB1B2_slp_r1
 bigDataUrl K562_TSA_c1r1_LaminB1_B2_slp_pct.bw
 shortLabel LMNB1/B2 slope R1
-longLabel K562 LMNB1/B2 TSA-seq derivative percentile rep1
+longLabel K562 LMNB1/B2 TSA-seq slope rep1 (percentile)
 type bigWig 
 
 track LMNB1B2_slp_r2
 bigDataUrl K562_TSA_c1r2_LaminB1_B2_slp_pct.bw
 shortLabel LMNB1/B2 slope R2
-longLabel K562 LMNB1/B2 TSA-seq derivative percentile rep2
+longLabel K562 LMNB1/B2 TSA-seq slope rep2 (percentile)
 type bigWig 
 
 track LMNA_slp_r2
 bigDataUrl K562_TSA_c1r2_LaminA_C_slp_pct.bw
 shortLabel LMNA/C slope R2
-longLabel K562 LMNBA/C TSA-seq derivative percentile rep2
+longLabel K562 LMNBA/C TSA-seq slope rep2 (percentile)
 type bigWig
 
 track SC35_r2
 bigDataUrl K562_TSA_c1r2_SC35_slp_pct.bw
 shortLabel SC35 slope R2
-longLabel K562 SC35 TSA-seq derivative percentile rep2
+longLabel K562 SC35 TSA-seq slope rep2 (percentile)
 type bigWig 
 
 track mean_slp
 bigDataUrl TSA_slp_merge_by_mean_pct.bw
 shortLabel Mean slope
-longLabel K562 average slope of all datasets
+longLabel K562 average of all TSA-seq slope datasets (percentile)
 type bigWig
 
 track high_slope_majority
